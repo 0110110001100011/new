@@ -3,11 +3,11 @@
 End Code
 
 <hgroup class="title">
-    <h1>@ViewData("Title").</h1>
+    <!--<h1>@ViewData("Title").</h1>-->
     <h2>@ViewData("Message")</h2>
 </hgroup>
 
-<section class="contact">
+<section class="contact contenedor_negro">
     <header>
         <h3>Phone</h3>
     </header>
@@ -21,7 +21,7 @@ End Code
     </p>
 </section>
 
-<section class="contact">
+<section class="contact contenedor_negro">
     <header>
         <h3>Email</h3>
     </header>
@@ -39,7 +39,7 @@ End Code
     </p>
 </section>
 
-<section class="contact">
+<section class="contact contenedor_negro">
     <header>
         <h3>Address</h3>
     </header>

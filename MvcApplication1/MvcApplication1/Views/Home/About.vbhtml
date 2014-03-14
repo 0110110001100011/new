@@ -3,25 +3,24 @@
 End Code
 
 <hgroup class="title">
-    <h1>@ViewData("Title").</h1>
+    <!--<h1>@ViewData("Title").</h1>-->
     <h2>@ViewData("Message")</h2>
 </hgroup>
 
-<article>
-    <p>
-        Use this area to provide additional information.
-    </p>
+    <article class="contenedor_negro contacto">
+        <p>
+            Use this area to provide additional information.
+        </p>
 
-    <p>
-        Use this area to provide additional information.
-    </p>
+        <p>
+            Use this area to provide additional information.
+        </p>
 
-    <p>
-        Use this area to provide additional information.
-    </p>
-</article>
-
-<aside>
+        <p>
+            Use this area to provide additional information.
+        </p>
+    </article>
+<aside class="contenedor_negro">
     <h3>Aside Title</h3>
     <p>
         Use this area to provide additional information.

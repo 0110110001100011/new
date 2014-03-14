@@ -2,46 +2,92 @@
     ViewData("Title") = "Home Page"
 End Code
 
+
 @section featured
     <section class="featured">
         <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">@Html.ActionLink(" ", "Index", "Home")</p>
+            </div>
             <hgroup class="title">
-                <h1>@ViewData("Title").</h1>
-                <h2>@ViewData("Message")</h2>
+                <h1>@ViewData("Message")</h1>
             </hgroup>
-            <p>
-                To learn more about ASP.NET MVC visit
-                <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC.
-                If you have any questions about ASP.NET MVC visit
-                <a href="http://forums.asp.net/1146.aspx/1?MVC" title="ASP.NET MVC Forum">our forums</a>.
-            </p>
-        </div>
+            
+            <div id="slideshow" class="centrado">
+                <div class="img" id="img-0" style="z-index:0;">
+                    <img src="../Images/img01.jpg" width="700" height="250" alt="" />
+                </div>
+                <div class="img" id="img-1" style="z-index:10;">
+                    <img src="../Images/img02.jpg" width="700" height="250" alt="" />
+                </div>
+                <div class="img" id="img-2" style="z-index:20;">
+                    <img src="../Images/img03.jpg" width="700" height="250" alt="" />
+                </div>
+                <div class="img" id="img-3" style="z-index:30;">
+                    <img src="../Images/img04.jpg" width="700" height="250" alt="" />
+                </div>
+                <div id="rapidlinks-btns">
+                    <div class="rapidlink-selected" id="rapidlink-0">
+                        <a href="javascript:userChangeRapidLink('0');">
+                            <img height="10" src="../Images/blank.png" width="10" alt="" />
+                        </a>
+                    </div>
+                    <div class="rapidlink" id="rapidlink-1">
+                        <a href="javascript:userChangeRapidLink('1');">
+                            <img height="10" src="../Images/blank.png" width="10" alt="" />
+                        </a>
+                    </div>
+                    <div class="rapidlink" id="rapidlink-2">
+                        <a href="javascript:userChangeRapidLink('2');">
+                            <img height="10" src="../Images/blank.png" width="10" alt="" />
+                        </a>
+                    </div>
+                    <div class="rapidlink" id="rapidlink-3">
+                        <a href="javascript:userChangeRapidLink('3');">
+                            <img height="10" src="../Images/blank.png" width="10" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="intro" class="centrado">
+                <table>
+                    <tr>
+                        <th class="centrado"><h2>BIENVENIDO</h2>
+                        <th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Aqui encontraras recetas, ejercicios y tips para poder vencer la obesidad y la desnutricion</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Registrese:</h3>
+                            <ol class="round">
+                                <li class="one">
+                                    <h5>Acceso a beneficios</h5>
+                                    Usted podra registrarse de manera gratuita para tener acceso a contenido exclusivo
+                                </li>
+
+                                <li class="two">
+                                    <h5>Contacte a su especialista en Nutricion</h5>
+                                    Usted podra estar en contacto con expertos en el area de nutricion. Podra programar
+                                    su proxima cita asi como ver el tratamiento que le hayan asignado y llevar un control
+                                    de este.
+                                </li>
+
+                                <li class="three">
+                                    <h5>Escriba sus dudas</h5>
+                                    Podra acceder a nuestro foro privado en el cual podra preguntar y responder cualquier
+                                    tipo de dudas de otros miembros.
+                                </li>
+                            </ol>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+         </div>
     </section>
 End Section
 
-<h3>We suggest the following:</h3>
-<ol class="round">
-    <li class="one">
-        <h5>Getting Started</h5>
-        ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-        enables a clean separation of concerns and that gives you full control over markup
-        for enjoyable, agile development. ASP.NET MVC includes many features that enable
-        fast, TDD-friendly development for creating sophisticated applications that use
-        the latest web standards.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
-    </li>
-
-    <li class="two">
-        <h5>Add NuGet packages and jump-start your coding</h5>
-        NuGet makes it easy to install and update free libraries and tools.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245153">Learn more…</a>
-    </li>
-
-    <li class="three">
-        <h5>Find Web Hosting</h5>
-        You can easily find a web hosting company that offers the right mix of features
-        and price for your applications.
-        <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Learn more…</a>
-    </li>
-</ol>

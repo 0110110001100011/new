@@ -3,33 +3,36 @@
     ViewData("Title") = "Registrarse"
 End Code
 
-<hgroup class="title">
-    <h1>@ViewData("Title").</h1>
-    <h2>Cree una cuenta nueva.</h2>
+<hgroup class="title" id="hgt_registro">
+    <h2>@ViewData("Title")</h2>
 </hgroup>
 
 @Using Html.BeginForm()
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
-
     @<fieldset>
-        <legend>Formulario de registro</legend>
-        <ol>
-            <li>
-                @Html.LabelFor(Function(m) m.UserName)
-                @Html.TextBoxFor(Function(m) m.UserName)
-            </li>
-            <li>
-                @Html.LabelFor(Function(m) m.Password)
-                @Html.PasswordFor(Function(m) m.Password)
-            </li>
-            <li>
-                @Html.LabelFor(Function(m) m.ConfirmPassword)
-                @Html.PasswordFor(Function(m) m.ConfirmPassword)
-            </li>
-        </ol>
-        <input type="submit" value="Registrarse" />
-    </fieldset>
+
+         
+             <legend>Formulario de registro</legend>
+         <div class="contenedor_negro">
+             <h2>Nuevo usuario:</h2>
+             <ol>
+                 <li>
+                     @Html.LabelFor(Function(m) m.UserName)
+                     @Html.TextBoxFor(Function(m) m.UserName)
+                 </li>
+                 <li>
+                     @Html.LabelFor(Function(m) m.Password)
+                     @Html.PasswordFor(Function(m) m.Password)
+                 </li>
+                 <li>
+                     @Html.LabelFor(Function(m) m.ConfirmPassword)
+                     @Html.PasswordFor(Function(m) m.ConfirmPassword)
+                 </li>
+             </ol>
+             <input type="submit" value="Registrarse" />
+         </div>
+</fieldset>
 End Using
 
 @Section Scripts

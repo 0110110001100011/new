@@ -1,7 +1,7 @@
 ﻿@ModelType MvcApplication1.LoginModel
 
 @Code
-    ViewData("Title") = "Iniciar sesión"
+    ViewData("Title") = " "
 End Code
 
 <hgroup class="title">
@@ -9,12 +9,13 @@ End Code
 </hgroup>
 
 <section id="loginForm">
-<h2>Utilice una cuenta local para iniciar sesión.</h2>
+
 @Using Html.BeginForm(New With { .ReturnUrl = ViewData("ReturnUrl") })
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
-    @<fieldset>
+    @<fieldset class="contenedor_negro">
+         <h2>Iniciar sesión (localhost).</h2>
         <legend>Formulario de inicio de sesión</legend>
         <ol>
             <li>
@@ -40,7 +41,7 @@ End Code
 End Using
 </section>
 
-<section class="social" id="socialLoginForm">
+<section class="social contenedor_negro" id="socialLoginForm">
     <h2>Usar otro servicio para iniciar sesión.</h2>
     @Html.Action("ExternalLoginsList", New With {.ReturnUrl = ViewData("ReturnUrl")})
 </section>
