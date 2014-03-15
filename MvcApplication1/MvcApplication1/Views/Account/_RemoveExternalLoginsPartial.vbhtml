@@ -1,4 +1,4 @@
-﻿@ModelType ICollection(Of MvcApplication1.ExternalLogin)
+﻿@ModelType ICollection(Of Obesus.ExternalLogin)
 
 @If Model.Count > 0 Then
     @<h3>Inicios de sesión externos registrados</h3>

@@ -1,4 +1,4 @@
-﻿@ModelType MvcApplication1.RegisterModel
+﻿@ModelType Obesus.RegisterModel
 @Code
     ViewData("Title") = "Registrarse"
 End Code

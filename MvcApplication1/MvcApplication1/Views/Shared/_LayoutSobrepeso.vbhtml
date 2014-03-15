@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <div class="content-wrapper">
+            <div class="rojo content-wrapper" >
                 <div class="float-left">
                     <p class="site-title">@Html.ActionLink("logotipo Obesus", "Index", "Home")</p>
                 </div>

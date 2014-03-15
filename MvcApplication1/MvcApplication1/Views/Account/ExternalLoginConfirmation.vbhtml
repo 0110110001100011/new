@@ -1,4 +1,4 @@
-﻿@ModelType MvcApplication1.RegisterExternalLoginModel
+﻿@ModelType Obesus.RegisterExternalLoginModel
 @Code
     ViewData("Title") = "Registrarse"
 End Code

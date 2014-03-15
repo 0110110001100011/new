@@ -1,4 +1,4 @@
-﻿@ModelType MvcApplication1.LocalPasswordModel
+﻿@ModelType Obesus.LocalPasswordModel
 
 <h3>Cambiar contraseña</h3>
 

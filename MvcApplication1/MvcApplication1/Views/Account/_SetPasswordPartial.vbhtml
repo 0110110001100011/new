@@ -1,4 +1,4 @@
-﻿@ModelType MvcApplication1.LocalPasswordModel
+﻿@ModelType Obesus.LocalPasswordModel
 
 <p>
     No dispone de contraseña local para este sitio. Agregue una contraseña

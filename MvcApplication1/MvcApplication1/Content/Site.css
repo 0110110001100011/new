@@ -33,6 +33,7 @@ a {
     text-decoration: underline;
 }
 
+
     a:link, a:visited,
     a:active, a:hover {
         color: #01DF01;
@@ -103,14 +104,22 @@ h5, h6 {
         text-decoration: none;
     }
 
-/*FONDOS*/
+/*COLORES*/
 .fondo_rojo{
     background: url("../Images/background_rojo.jpg");
-    background-attachment:fixed;
-	background-repeat:repeat;
-	background-size:100% 100%;
-	background-position:left; 
 }
+header .verde{
+	border-bottom: 5px  solid #01DF01;
+}
+header .rojo{
+	border-bottom: 5px  solid #F00;
+}
+a .rojo{
+    color: #F00;
+}
+a .rojo:hover{
+        background-color: #01DF01;
+} 
 
 /* main layout
 ----------------------------------------------------------*/
@@ -145,7 +154,6 @@ header .content-wrapper{
 	width:100%;
 	height: auto;
 	background: #FFF;
-	border-bottom: 5px  solid #01DF01;
 	box-shadow: black 0px 5px 15px inset;
  	min-width: 200px;
 	float: left;

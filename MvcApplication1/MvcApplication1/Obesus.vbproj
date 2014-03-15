@@ -212,7 +212,6 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\WebApiConfig.vb" />
-    <Compile Include="Controllers\HelloWorldController.vb" />
     <Compile Include="Controllers\SobrepesoController.vb" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.vb" />
     <Compile Include="Global.asax.vb">
@@ -312,7 +311,6 @@
     <Content Include="Images\background.jpg" />
     <Content Include="Images\background_rojo.jpg" />
     <Content Include="packages.config" />
-    <Content Include="Views\HelloWorld\Index.vbhtml" />
     <Content Include="Views\Home\Desnutricion.vbhtml" />
     <Content Include="Views\Home\Dietas.vbhtml" />
     <Content Include="Views\Home\Ejercicio.vbhtml" />

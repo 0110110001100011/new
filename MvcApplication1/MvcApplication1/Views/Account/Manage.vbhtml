@@ -1,4 +1,4 @@
-﻿@ModelType MvcApplication1.LocalPasswordModel
+﻿@ModelType Obesus.LocalPasswordModel
 <div class="contenedor_negro">
     @Code
         ViewData("Title") = "Administrar cuenta"

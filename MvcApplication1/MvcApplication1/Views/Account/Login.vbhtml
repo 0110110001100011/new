@@ -1,4 +1,4 @@
-﻿@ModelType MvcApplication1.LoginModel
+﻿@ModelType Obesus.LoginModel
 
 @Code
     ViewData("Title") = " "
