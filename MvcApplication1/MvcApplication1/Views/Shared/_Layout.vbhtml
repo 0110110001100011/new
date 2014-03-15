@@ -25,12 +25,12 @@
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Desnutricion", "Desnutricion", "Desnutricion")</li>
+                            <li>@Html.ActionLink("Sobrepeso", "Sobrepeso", "Sobrepeso")</li>
+                            <li>@Html.ActionLink("Dietas", "Dietas", "Dietas")</li>
+                            <li>@Html.ActionLink("Ejercicio", "Ejercicio", "Ejercicio")</li>
                             <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
                             <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
-                            <li>@Html.ActionLink("Desnutricion", "Desnutricion", "Home")</li>
-                            <li>@Html.ActionLink("Sobrepeso", "Sobrepeso", "Sobrepeso")</li>
-                            <li>@Html.ActionLink("Dietas", "Dietas", "Home")</li>
-                            <li>@Html.ActionLink("Ejercicio", "Ejercicio", "Home")</li>
                         </ul>
                     </nav>
                 </div>

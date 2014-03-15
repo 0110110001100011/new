@@ -212,6 +212,9 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\WebApiConfig.vb" />
+    <Compile Include="Controllers\DesnutricionController.vb" />
+    <Compile Include="Controllers\DietasController.vb" />
+    <Compile Include="Controllers\EjercicioController.vb" />
     <Compile Include="Controllers\SobrepesoController.vb" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.vb" />
     <Compile Include="Global.asax.vb">
@@ -311,11 +314,16 @@
     <Content Include="Images\background.jpg" />
     <Content Include="Images\background_rojo.jpg" />
     <Content Include="packages.config" />
-    <Content Include="Views\Home\Desnutricion.vbhtml" />
-    <Content Include="Views\Home\Dietas.vbhtml" />
-    <Content Include="Views\Home\Ejercicio.vbhtml" />
     <Content Include="Views\Shared\_LayoutSobrepeso.vbhtml" />
     <Content Include="Views\Sobrepeso\Sobrepeso.vbhtml" />
+    <Content Include="Views\Sobrepeso\SobrpesoCausas.vbhtml" />
+    <Content Include="Views\Sobrepeso\SobrepesoMC.vbhtml" />
+    <Content Include="Views\Shared\_LayoutEjercicio.vbhtml" />
+    <Content Include="Views\Shared\_LayoutDietas.vbhtml" />
+    <Content Include="Views\Shared\_LayoutDesnutricion.vbhtml" />
+    <Content Include="Views\Ejercico\Ejercicio.vbhtml" />
+    <Content Include="Views\Desnutricion\Desnutricion.vbhtml" />
+    <Content Include="Views\Dietas\Dietas.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

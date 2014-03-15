@@ -18,18 +18,6 @@
 
         Return View()
     End Function
-    Function Desnutricion() As ActionResult
-
-        Return View()
-    End Function
-    Function Dietas() As ActionResult
-
-        Return View()
-    End Function
-    Function Ejercicio() As ActionResult
-
-        Return View()
-    End Function
 
 
 End Class

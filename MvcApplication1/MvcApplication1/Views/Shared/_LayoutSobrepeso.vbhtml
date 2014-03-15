@@ -22,12 +22,12 @@
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Desnutricion", "Desnutricion", "Desnutricion")</li>
+                            <li>@Html.ActionLink("Sobrepeso", "Sobrepeso", "Sobrepeso")</li>
+                            <li>@Html.ActionLink("Dietas", "Dietas", "Dietas")</li>
+                            <li>@Html.ActionLink("Ejercicio", "Ejercicio", "Ejercicio")</li>
                             <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
                             <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
-                            <li>@Html.ActionLink("Desnutricion", "Desnutricion", "Home")</li>
-                            <li>@Html.ActionLink("Sobrepeso", "Sobrepeso", "Home")</li>
-                            <li>@Html.ActionLink("Dietas", "Dietas", "Home")</li>
-                            <li>@Html.ActionLink("Ejercicio", "Ejercicio", "Home")</li>
                         </ul>
                     </nav>
                 </div>
@@ -38,6 +38,14 @@
             <section class="content-wrapper main-content clear-fix">
                 @RenderBody()
             </section>
+            <aside class="contenedor_negro">
+                <h3>Mas Informacion</h3>
+                <ul>
+                    <li>@Html.ActionLink("Sobrepeso", "Sobrepeso", "Sobrepeso")</li>
+                    <li>@Html.ActionLink("Causas del Sobrepeso", "SobrepesoCausas", "Sobrepeso")</li>
+                    <li>@Html.ActionLink("Indices de masa corporal", "SobrepesoMC", "Sobrepeso")</li>
+                </ul>
+            </aside>
         </div>
         <footer>
             <div class="content-wrapper">
