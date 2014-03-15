@@ -1,16 +1,11 @@
 ﻿<!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="fondo_rojo" >
     <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta charset="utf-8" />
         <title>Obesus - @ViewData("Title")</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
-        <script type="text/javascript" src="../Scripts/jquery.js"></script>
-        <script type="text/javascript" src="../Scripts/slideshow.js"></script>
-        <link rel="stylesheet" type="text/css" href="../Content/Slideshow.css" />
-        @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
     </head>
     <body>
         <header>
@@ -28,7 +23,7 @@
                             <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
                             <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
                             <li>@Html.ActionLink("Desnutricion", "Desnutricion", "Home")</li>
-                            <li>@Html.ActionLink("Sobrepeso", "Sobrepeso", "Sobrepeso")</li>
+                            <li>@Html.ActionLink("Sobrepeso", "Sobrepeso", "Home")</li>
                             <li>@Html.ActionLink("Dietas", "Dietas", "Home")</li>
                             <li>@Html.ActionLink("Ejercicio", "Ejercicio", "Home")</li>
                         </ul>

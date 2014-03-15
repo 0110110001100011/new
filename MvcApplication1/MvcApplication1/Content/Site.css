@@ -7,7 +7,7 @@
     background: url("../images/background.jpg");
     background-attachment:fixed;
 	background-repeat:repeat;
-	background-size:100% auto;
+	background-size:100% 100%;
 	background-position:left; 
 }
 
@@ -103,6 +103,14 @@ h5, h6 {
         text-decoration: none;
     }
 
+/*FONDOS*/
+html .fondo_rojo{
+    background: url("../Images/backround_rojo.jpg");
+    background-attachment:fixed;
+	background-repeat:repeat;
+	background-size:100% 100%;
+	background-position:left; 
+}
 
 /* main layout
 ----------------------------------------------------------*/

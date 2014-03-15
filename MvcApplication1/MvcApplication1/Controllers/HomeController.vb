@@ -18,10 +18,22 @@
 
         Return View()
     End Function
-
-    Function Obesity() As ActionResult
-        ViewData("Message") = "Obesidad"
+    Function Desnutricion() As ActionResult
 
         Return View()
     End Function
+    Function Dietas() As ActionResult
+
+        Return View()
+    End Function
+    Function Ejercicio() As ActionResult
+
+        Return View()
+    End Function
+    Function Sobrepeso() As ActionResult
+
+        Return View()
+    End Function
+
+
 End Class
