@@ -30,10 +30,6 @@
 
         Return View()
     End Function
-    Function Sobrepeso() As ActionResult
-
-        Return View()
-    End Function
 
 
 End Class

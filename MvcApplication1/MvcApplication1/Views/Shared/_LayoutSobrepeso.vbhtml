@@ -3,9 +3,11 @@
     <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta charset="utf-8" />
-        <title>Obesus - @ViewData("Title")</title>
+        <title>Obesus2 - @ViewData("Title")</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
     </head>
     <body>
         <header>

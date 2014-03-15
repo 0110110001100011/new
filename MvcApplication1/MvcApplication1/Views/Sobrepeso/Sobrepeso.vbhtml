@@ -1,5 +1,5 @@
 ﻿@Code
-    Layout = "~/Views/Shared/_Layout.vbhtml"
+    Layout = "~/Views/Shared/_LayoutSobrepeso.vbhtml"
 End Code
 @Code
     ViewData("Title") = "Sobrepeso"

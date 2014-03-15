@@ -104,7 +104,7 @@ h5, h6 {
     }
 
 /*FONDOS*/
-html .fondo_rojo{
+.fondo_rojo{
     background: url("../Images/backround_rojo.jpg");
     background-attachment:fixed;
 	background-repeat:repeat;
