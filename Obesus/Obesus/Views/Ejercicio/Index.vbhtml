@@ -15,7 +15,7 @@ End Code
                 </tr>
                 <tr>
                     <td>
-                        <p>Aqui encontraras recetas, ejercicios y tips para poder vencer la obesidad y la desnutricion</p>
+                        <p>Contenido no disponible por el momento</p>
                     </td>
                 </tr>
                 <tr>
