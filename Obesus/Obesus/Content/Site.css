@@ -17,6 +17,7 @@
     margin-right:auto;
     text-align:center;
 }
+
 html {
     /*background-color: #e2e2e2;
         #01DF01*/
@@ -270,8 +271,11 @@ ul#menu {
     width: 35%;
     margin-top:20px;
 }
-/*Administrar cuenta*/
-
+/*About*/
+.acerca{
+    max-width: 40%;
+    margin: 15px;
+}
 /* page elements
 ----------------------------------------------------------*/
 /* featured */
